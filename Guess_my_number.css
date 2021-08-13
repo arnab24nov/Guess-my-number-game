@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+body{
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    position: relative;
+    height: 30vh;
+    border-bottom: 7px solid #eee;
+}
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 50px;
+}
+.between{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 20px;
+}
+.btn1{
+    position: absolute;
+    bottom: 5%;
+    left: 20px;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(240, 138, 65);
+    
+}
+.number{
+    position: absolute;
+    bottom: -20%;
+    left: 41%;
+    width: 15%;
+    height: 35%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+}
+main{
+    position: relative;
+    height: 68vh;
+}
+.left{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.guessNumber{
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    background-color:rgb(241, 151, 87);;
+}
+.btn2{
+    position: absolute;
+    top: 120%;
+    left: 25%;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(240, 138, 65);    
+}
+.right{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 500px;
+    height: 250px;
+}
+.messege{
+    font-size: 35px; 
+}
+.lebel-score{
+    font-size: 30px;
+}
+.lebel-highscore{
+    font-size: 30px;
+}
+.myStyle1{
+    background-color: #60b347;
+}
+.myStyle2{
+    background-color: rgb(233, 107, 107);
+}
+
+
+
+
