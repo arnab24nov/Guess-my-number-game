@@ -2,11 +2,10 @@
 let numRandom = Math.trunc(Math.random()*20) +1;
 
 document.querySelector(".btn2").addEventListener('click', function(){
-    let gNum = document.querySelector(".guessNumber").value;
-    if (gNum<1 || gNum>20){
-        document.querySelector(".messege").innerHTML = 
-        "Please guess a number between 1 to 20.";
-    }
+    let gNum = Number(document.querySelector(".guessNumber").value);
+    if (gNum < 1 || gNum > 20){
+        document.querySelector(".messege").innerHTML = "Please put a number between 1 to 20.";
+    }else{
 
     let sCore =Number(document.querySelector(".score").textContent);
 
@@ -40,6 +39,7 @@ document.querySelector(".btn2").addEventListener('click', function(){
             document.querySelector(".high-score").textContent = sCore;
         }
     }
+}
 }
 }
 })
