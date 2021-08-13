@@ -3,7 +3,6 @@ let numRandom = Math.trunc(Math.random()*20) +1;
 
 document.querySelector(".btn2").addEventListener('click', function(){
     let gNum = document.querySelector(".guessNumber").value;
-    console.log(gNum);
     if (gNum<1 || gNum>20){
         document.querySelector(".messege").innerHTML = 
         "Please guess a number between 1 to 20.";
